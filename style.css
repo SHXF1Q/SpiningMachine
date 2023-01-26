@@ -1,0 +1,14 @@
+#section {
+  border-color: black;  /* the border will be black */
+  border-style: solid; /* the border will be dotted */
+  border-width: 5px; /* the border will have a thickness of 2 pixels */
+  margin: 20px; /* there will be 5px of space outside the all sides of the border of the section */
+}
+
+.center {
+  text-align: center 
+}
+
+#section2 {
+  color: purple
+}

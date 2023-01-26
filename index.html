@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+  </head>
+   <div id="section2">
+   <h1 class="center">Spinning Machine</h1>
+      </div>
+  <body>
+ <div id="section">
+   
+<form onsubmit="return false;">
+    <label for="speed">Enter Speed:</label>
+    <input type="text" id="Speed" />
+  
+    <input id ="submit" type="submit" value="submit" onclick="changeSpeed()" />
+  
+  <br>
+     <label for="shape">Pick a shape:</label>
+      <select  id="shapes" onchange="changeShape();">
+        <option id = "circle">Circle</option>
+        <option id = "square">Square</option>
+      </select>
+    </form>
+  
+  <input type="radio" name = "direction" id="counterclockwise" onclick="counterclockwise()"/>
+<label for="counterclockwise">counterclockwise</label>
+     <input type="radio" name = "direction" id="clockwise" onclick="clockwise()"/>
+<label for="clockwise">clockwise</label>
+    <script src="script.js"></script>
+     </div>
+  </body>
+</html>
